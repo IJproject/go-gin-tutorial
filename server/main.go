@@ -11,7 +11,7 @@ func main() {
 	// ルートハンドラの定義
 	router.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Hello, World!",
+			"message": "Hello, World! Hello, World! Hello, World! Hello, World! Hello, World!cさmkんcあskんkdんjんcjdks",
 		})
 	})
 

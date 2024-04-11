@@ -6,13 +6,25 @@ Go(Gin)の学習用に作成
 
 ### バックエンド
 
-* Gin(Golang) 
+- Gin(Golang) 
 
 ### フロントエンド
 
-* Nuxt(TypeScript)
-* Vuetify
+- Nuxt(TypeScript)
+- Vuetify
 
 ### インフラ
 
-* Docker
+- Docker
+
+#### やることリスト
+
+- Airの修正
+- モデルを導入（gorm？）
+- コントローラを導入
+- 設定ファイルをいじりたい
+- middlewareをいじりたい
+
+#### 取り組んだポイント
+
+- Docker環境を構築し、快適に開発できるようにする。（実装中：Go側ではAirをインストールし、ホットリロードができるようにセットアップしてある。）
