@@ -6,6 +6,8 @@ services:
       dockerfile: ./docker/server/Dockerfile
     ports:
       - 8080:8080
+    volumes:
+      - './server:/app'
     depends_on:
       - db
   client:
@@ -14,6 +16,8 @@ services:
       dockerfile: ./docker/client/Dockerfile
     ports:
       - "3000:3000"
+    volumes:
+      - './client:/app'
   db:
     image: "mysql:latest"
     volumes:
